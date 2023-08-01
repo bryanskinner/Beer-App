@@ -1,0 +1,21 @@
+.items {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    text-align: center;
+    padding: 0;
+    margin: var(--spacing-xl);
+}
+
+.item {
+    border: 4px solid black;
+    border-radius: var(--radii-sm);
+    padding: var(--spacing-sm);
+}
+
+.item_image {
+    height: 150px
+}
+
+
